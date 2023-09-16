@@ -1,0 +1,23 @@
+[0.401s] Invoking command in '/home/palneel/ros2_ws/src/lab4': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed
+[0.553s] running egg_info
+[0.553s] writing ../../build/lab4/lab4.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/lab4/lab4.egg-info/dependency_links.txt
+[0.553s] writing entry points to ../../build/lab4/lab4.egg-info/entry_points.txt
+[0.554s] writing requirements to ../../build/lab4/lab4.egg-info/requires.txt
+[0.554s] writing top-level names to ../../build/lab4/lab4.egg-info/top_level.txt
+[0.555s] reading manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.556s] running install
+[0.556s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.556s]   warnings.warn(
+[0.556s] running install_lib
+[0.557s] running install_data
+[0.557s] running install_egg_info
+[0.558s] removing '/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info' (and everything under it)
+[0.558s] Copying ../../build/lab4/lab4.egg-info to /home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[0.559s] running install_scripts
+[0.573s] Installing controller script to /home/palneel/ros2_ws/install/lab4/lib/lab4
+[0.573s] writing list of installed files to '/home/palneel/ros2_ws/build/lab4/install.log'
+[0.591s] Invoked command in '/home/palneel/ros2_ws/src/lab4' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed

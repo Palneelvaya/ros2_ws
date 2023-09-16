@@ -1,0 +1,4 @@
+[console_scripts]
+controller = lab4.move_robot:main
+wall_follower = lab4.wall_follower:main
+

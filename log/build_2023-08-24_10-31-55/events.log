@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000825] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000895] (node_pkg) JobQueued: {'identifier': 'node_pkg', 'dependencies': OrderedDict()}
+[0.000928] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.000956] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.019719] (node_pkg) JobStarted: {'identifier': 'node_pkg'}
+[0.031190] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.097848] (-) TimerEvent: {}
+[0.198488] (-) TimerEvent: {}
+[0.299212] (-) TimerEvent: {}
+[0.399930] (-) TimerEvent: {}
+[0.500685] (-) TimerEvent: {}
+[0.601514] (-) TimerEvent: {}
+[0.702400] (-) TimerEvent: {}
+[0.803237] (-) TimerEvent: {}
+[0.904064] (-) TimerEvent: {}
+[1.018322] (-) TimerEvent: {}
+[1.119331] (-) TimerEvent: {}
+[1.220262] (-) TimerEvent: {}
+[1.321181] (-) TimerEvent: {}
+[1.422110] (-) TimerEvent: {}
+[1.523036] (-) TimerEvent: {}
+[1.624441] (-) TimerEvent: {}
+[1.725262] (-) TimerEvent: {}
+[1.826197] (-) TimerEvent: {}
+[1.927092] (-) TimerEvent: {}
+[2.028042] (-) TimerEvent: {}
+[2.128966] (-) TimerEvent: {}
+[2.229920] (-) TimerEvent: {}
+[2.330801] (-) TimerEvent: {}
+[2.431700] (-) TimerEvent: {}
+[2.532508] (-) TimerEvent: {}
+[2.633292] (-) TimerEvent: {}
+[2.734115] (-) TimerEvent: {}
+[2.834904] (-) TimerEvent: {}
+[2.935671] (-) TimerEvent: {}
+[3.036379] (-) TimerEvent: {}
+[3.137262] (-) TimerEvent: {}
+[3.238038] (-) TimerEvent: {}
+[3.338873] (-) TimerEvent: {}
+[3.445257] (-) TimerEvent: {}
+[3.549257] (-) TimerEvent: {}
+[3.653241] (-) TimerEvent: {}
+[3.756609] (-) TimerEvent: {}
+[3.861231] (-) TimerEvent: {}
+[3.965238] (-) TimerEvent: {}
+[4.068414] (-) TimerEvent: {}
+[4.169098] (-) TimerEvent: {}
+[4.270101] (-) TimerEvent: {}
+[4.371708] (-) TimerEvent: {}
+[4.472444] (-) TimerEvent: {}
+[4.573218] (-) TimerEvent: {}
+[4.625912] (node_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/node_pkg', 'build', '--build-base', '/home/palneel/ros2_ws/build/node_pkg/build', 'install', '--record', '/home/palneel/ros2_ws/build/node_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/palneel/ros2_ws/src/node_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'palneel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/palneel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/palneel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'palneel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'palneel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/palneel-IdeaPad-3-14ITL6:@/tmp/.ICE-unix/1634,unix/palneel-IdeaPad-3-14ITL6:/tmp/.ICE-unix/1634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e471179_57b0_4341_b887_ec1baf0a148b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDKDA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/palneel/ros2_ws/install/pub_sub:/home/palneel/ros2_ws/install/node_pkg:/home/palneel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/palneel/ros2_ws/build/node_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/palneel/ros2_ws/build/node_pkg/prefix_override:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.673405] (-) TimerEvent: {}
+[4.723317] (pub_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/palneel/ros2_ws/build/pub_sub/build'], 'cwd': '/home/palneel/ros2_ws/build/pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'palneel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/palneel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/palneel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'palneel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'palneel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/palneel-IdeaPad-3-14ITL6:@/tmp/.ICE-unix/1634,unix/palneel-IdeaPad-3-14ITL6:/tmp/.ICE-unix/1634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e471179_57b0_4341_b887_ec1baf0a148b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDKDA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/palneel/ros2_ws/install/pub_sub:/home/palneel/ros2_ws/install/node_pkg:/home/palneel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/palneel/ros2_ws/build/pub_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.777211] (-) TimerEvent: {}
+[4.885228] (-) TimerEvent: {}
+[4.929240] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/palneel/ros2_ws/build/my_package/build'], 'cwd': '/home/palneel/ros2_ws/build/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'palneel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/palneel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/palneel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'palneel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'palneel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/palneel-IdeaPad-3-14ITL6:@/tmp/.ICE-unix/1634,unix/palneel-IdeaPad-3-14ITL6:/tmp/.ICE-unix/1634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e471179_57b0_4341_b887_ec1baf0a148b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDKDA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/palneel/ros2_ws/install/pub_sub:/home/palneel/ros2_ws/install/node_pkg:/home/palneel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/palneel/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.989181] (-) TimerEvent: {}
+[5.092412] (-) TimerEvent: {}
+[5.193213] (-) TimerEvent: {}
+[5.297221] (-) TimerEvent: {}
+[5.399544] (-) TimerEvent: {}
+[5.501237] (-) TimerEvent: {}
+[5.549229] (node_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.557155] (node_pkg) StdoutLine: {'line': b'writing ../../build/node_pkg/node_pkg.egg-info/PKG-INFO\n'}
+[5.557391] (node_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/node_pkg/node_pkg.egg-info/dependency_links.txt\n'}
+[5.557588] (node_pkg) StdoutLine: {'line': b'writing entry points to ../../build/node_pkg/node_pkg.egg-info/entry_points.txt\n'}
+[5.557782] (node_pkg) StdoutLine: {'line': b'writing requirements to ../../build/node_pkg/node_pkg.egg-info/requires.txt\n'}
+[5.557973] (node_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/node_pkg/node_pkg.egg-info/top_level.txt\n'}
+[5.560107] (node_pkg) StdoutLine: {'line': b"reading manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'\n"}
+[5.563420] (node_pkg) StdoutLine: {'line': b"writing manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'\n"}
+[5.563818] (node_pkg) StdoutLine: {'line': b'running build\n'}
+[5.564030] (node_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.564858] (node_pkg) StdoutLine: {'line': b'running install\n'}
+[5.565332] (node_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.565596] (node_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.566501] (node_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.570754] (node_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.572847] (node_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.579152] (node_pkg) StdoutLine: {'line': b"removing '/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.580213] (node_pkg) StdoutLine: {'line': b'Copying ../../build/node_pkg/node_pkg.egg-info to /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg-0.0.0-py3.10.egg-info\n'}
+[5.582981] (node_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.604320] (-) TimerEvent: {}
+[5.606656] (pub_sub) StdoutLine: {'line': b'running develop\n'}
+[5.607670] (pub_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.607935] (pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.611691] (pub_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.611919] (pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.671014] (node_pkg) StdoutLine: {'line': b'Installing Node1 script to /home/palneel/ros2_ws/install/node_pkg/lib/node_pkg\n'}
+[5.672115] (node_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/palneel/ros2_ws/build/node_pkg/install.log'\n"}
+[5.705185] (-) TimerEvent: {}
+[5.773222] (node_pkg) CommandEnded: {'returncode': 0}
+[5.805316] (-) TimerEvent: {}
+[5.819109] (node_pkg) JobEnded: {'identifier': 'node_pkg', 'rc': 0}
+[5.909436] (-) TimerEvent: {}
+[6.012582] (-) TimerEvent: {}
+[6.061447] (my_package) StdoutLine: {'line': b'running develop\n'}
+[6.066747] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.067256] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.067571] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.067854] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.113238] (-) TimerEvent: {}
+[6.165761] (pub_sub) CommandEnded: {'returncode': 0}
+[6.168883] (pub_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pub_sub', 'build', '--build-base', '/home/palneel/ros2_ws/build/pub_sub/build', 'install', '--record', '/home/palneel/ros2_ws/build/pub_sub/install.log', '--single-version-externally-managed'], 'cwd': '/home/palneel/ros2_ws/src/pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'palneel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/palneel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/palneel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'palneel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'palneel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/palneel-IdeaPad-3-14ITL6:@/tmp/.ICE-unix/1634,unix/palneel-IdeaPad-3-14ITL6:/tmp/.ICE-unix/1634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e471179_57b0_4341_b887_ec1baf0a148b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDKDA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/palneel/ros2_ws/install/pub_sub:/home/palneel/ros2_ws/install/node_pkg:/home/palneel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/palneel/ros2_ws/build/pub_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.213383] (-) TimerEvent: {}
+[6.313973] (-) TimerEvent: {}
+[6.414547] (-) TimerEvent: {}
+[6.515154] (-) TimerEvent: {}
+[6.615838] (-) TimerEvent: {}
+[6.640282] (my_package) CommandEnded: {'returncode': 0}
+[6.641313] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/palneel/ros2_ws/build/my_package/build', 'install', '--record', '/home/palneel/ros2_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/palneel/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'palneel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/palneel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/palneel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'palneel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'palneel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/palneel-IdeaPad-3-14ITL6:@/tmp/.ICE-unix/1634,unix/palneel-IdeaPad-3-14ITL6:/tmp/.ICE-unix/1634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e471179_57b0_4341_b887_ec1baf0a148b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDKDA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/palneel/ros2_ws/install/pub_sub:/home/palneel/ros2_ws/install/node_pkg:/home/palneel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/palneel/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.716013] (-) TimerEvent: {}
+[6.816713] (-) TimerEvent: {}
+[6.906862] (pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[6.909342] (pub_sub) StdoutLine: {'line': b'writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO\n'}
+[6.909894] (pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt\n'}
+[6.910301] (pub_sub) StdoutLine: {'line': b'writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt\n'}
+[6.910569] (pub_sub) StdoutLine: {'line': b'writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt\n'}
+[6.910830] (pub_sub) StdoutLine: {'line': b'writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt\n'}
+[6.915825] (pub_sub) StdoutLine: {'line': b"reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[6.918301] (pub_sub) StdoutLine: {'line': b"writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[6.918507] (-) TimerEvent: {}
+[6.918987] (pub_sub) StdoutLine: {'line': b'running build\n'}
+[6.919215] (pub_sub) StdoutLine: {'line': b'running build_py\n'}
+[6.919679] (pub_sub) StdoutLine: {'line': b'running install\n'}
+[6.920019] (pub_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.920237] (pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.920929] (pub_sub) StdoutLine: {'line': b'running install_lib\n'}
+[6.924324] (pub_sub) StdoutLine: {'line': b'running install_data\n'}
+[6.925800] (pub_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.930613] (pub_sub) StdoutLine: {'line': b"removing '/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.931346] (pub_sub) StdoutLine: {'line': b'Copying ../../build/pub_sub/pub_sub.egg-info to /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info\n'}
+[6.933358] (pub_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.999289] (pub_sub) StdoutLine: {'line': b'Installing publisher script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub\n'}
+[7.000016] (pub_sub) StdoutLine: {'line': b'Installing sample script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub\n'}
+[7.000911] (pub_sub) StdoutLine: {'line': b'Installing subscriber script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub\n'}
+[7.001288] (pub_sub) StdoutLine: {'line': b"writing list of installed files to '/home/palneel/ros2_ws/build/pub_sub/install.log'\n"}
+[7.020462] (-) TimerEvent: {}
+[7.082501] (pub_sub) CommandEnded: {'returncode': 0}
+[7.120636] (-) TimerEvent: {}
+[7.127588] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 0}
+[7.220881] (-) TimerEvent: {}
+[7.321722] (-) TimerEvent: {}
+[7.422449] (-) TimerEvent: {}
+[7.523242] (-) TimerEvent: {}
+[7.586274] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[7.588840] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[7.589477] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[7.589990] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[7.590289] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[7.590623] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[7.595904] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[7.598801] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[7.599115] (my_package) StdoutLine: {'line': b'running build\n'}
+[7.599370] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[7.601146] (my_package) StdoutLine: {'line': b'running install\n'}
+[7.601561] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.601815] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.602572] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[7.606859] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[7.608372] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.613694] (my_package) StdoutLine: {'line': b"removing '/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.614577] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[7.616789] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[7.623306] (-) TimerEvent: {}
+[7.700819] (my_package) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.701866] (my_package) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.702587] (my_package) StdoutLine: {'line': b'Installing robot_publisher script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.703081] (my_package) StdoutLine: {'line': b'Installing robot_subscriber script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.703369] (my_package) StdoutLine: {'line': b'Installing sample script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.703635] (my_package) StdoutLine: {'line': b'Installing turtlesim_chase script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.703897] (my_package) StdoutLine: {'line': b'Installing turtlesim_controller script to /home/palneel/ros2_ws/install/my_package/lib/my_package\n'}
+[7.704645] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/palneel/ros2_ws/build/my_package/install.log'\n"}
+[7.723514] (-) TimerEvent: {}
+[7.801392] (my_package) CommandEnded: {'returncode': 0}
+[7.823847] (-) TimerEvent: {}
+[7.828744] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[7.831942] (-) EventReactorShutdown: {}

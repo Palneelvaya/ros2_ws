@@ -1,0 +1,35 @@
+[0.562s] Invoking command in '/home/palneel/ros2_ws/src/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed
+[0.711s] running egg_info
+[0.711s] creating ../../build/pub_sub/pub_sub.egg-info
+[0.712s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[0.712s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[0.712s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[0.712s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[0.712s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[0.712s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.713s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.714s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.714s] running build
+[0.714s] running build_py
+[0.714s] creating /home/palneel/ros2_ws/build/pub_sub/build
+[0.714s] creating /home/palneel/ros2_ws/build/pub_sub/build/lib
+[0.714s] creating /home/palneel/ros2_ws/build/pub_sub/build/lib/pub_sub
+[0.714s] copying pub_sub/__init__.py -> /home/palneel/ros2_ws/build/pub_sub/build/lib/pub_sub
+[0.714s] running install
+[0.714s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.714s]   warnings.warn(
+[0.714s] running install_lib
+[0.715s] creating /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.715s] copying /home/palneel/ros2_ws/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.715s] byte-compiling /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[0.715s] running install_data
+[0.716s] creating /home/palneel/ros2_ws/install/pub_sub/share/ament_index
+[0.716s] creating /home/palneel/ros2_ws/install/pub_sub/share/ament_index/resource_index
+[0.716s] creating /home/palneel/ros2_ws/install/pub_sub/share/ament_index/resource_index/packages
+[0.716s] copying resource/pub_sub -> /home/palneel/ros2_ws/install/pub_sub/share/ament_index/resource_index/packages
+[0.716s] copying package.xml -> /home/palneel/ros2_ws/install/pub_sub/share/pub_sub
+[0.716s] running install_egg_info
+[0.717s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[0.717s] running install_scripts
+[0.732s] writing list of installed files to '/home/palneel/ros2_ws/build/pub_sub/install.log'
+[0.751s] Invoked command in '/home/palneel/ros2_ws/src/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed

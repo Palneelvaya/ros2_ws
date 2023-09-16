@@ -1,0 +1,9 @@
+[console_scripts]
+add_two_ints_client = my_package.add_two_ints_client:main
+add_two_ints_server = my_package.add_two_ints_server:main
+robot_publisher = my_package.robot_publisher:main
+robot_subscriber = my_package.robot_subscriber:main
+sample = my_package.sample:main
+turtlesim_chase = my_package.turtle_chase:main
+turtlesim_controller = my_package.turtle_controller:main
+

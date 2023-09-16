@@ -1,0 +1,35 @@
+[0.741s] Invoking command in '/home/palneel/ros2_ws/src/node_pkg': PYTHONPATH=/home/palneel/ros2_ws/build/node_pkg/prefix_override:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/node_pkg build --build-base /home/palneel/ros2_ws/build/node_pkg/build install --record /home/palneel/ros2_ws/build/node_pkg/install.log --single-version-externally-managed
+[0.903s] running egg_info
+[0.903s] creating ../../build/node_pkg/node_pkg.egg-info
+[0.904s] writing ../../build/node_pkg/node_pkg.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../build/node_pkg/node_pkg.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../build/node_pkg/node_pkg.egg-info/entry_points.txt
+[0.904s] writing requirements to ../../build/node_pkg/node_pkg.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/node_pkg/node_pkg.egg-info/top_level.txt
+[0.904s] writing manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'
+[0.905s] reading manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] creating /home/palneel/ros2_ws/build/node_pkg/build
+[0.906s] creating /home/palneel/ros2_ws/build/node_pkg/build/lib
+[0.906s] creating /home/palneel/ros2_ws/build/node_pkg/build/lib/node_pkg
+[0.907s] copying node_pkg/__init__.py -> /home/palneel/ros2_ws/build/node_pkg/build/lib/node_pkg
+[0.907s] running install
+[0.907s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.907s]   warnings.warn(
+[0.907s] running install_lib
+[0.908s] creating /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg
+[0.908s] copying /home/palneel/ros2_ws/build/node_pkg/build/lib/node_pkg/__init__.py -> /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg
+[0.908s] byte-compiling /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg/__init__.py to __init__.cpython-310.pyc
+[0.908s] running install_data
+[0.909s] creating /home/palneel/ros2_ws/install/node_pkg/share/ament_index
+[0.909s] creating /home/palneel/ros2_ws/install/node_pkg/share/ament_index/resource_index
+[0.909s] creating /home/palneel/ros2_ws/install/node_pkg/share/ament_index/resource_index/packages
+[0.909s] copying resource/node_pkg -> /home/palneel/ros2_ws/install/node_pkg/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/palneel/ros2_ws/install/node_pkg/share/node_pkg
+[0.909s] running install_egg_info
+[0.911s] Copying ../../build/node_pkg/node_pkg.egg-info to /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg-0.0.0-py3.10.egg-info
+[0.911s] running install_scripts
+[0.927s] writing list of installed files to '/home/palneel/ros2_ws/build/node_pkg/install.log'
+[0.948s] Invoked command in '/home/palneel/ros2_ws/src/node_pkg' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/node_pkg/prefix_override:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/node_pkg build --build-base /home/palneel/ros2_ws/build/node_pkg/build install --record /home/palneel/ros2_ws/build/node_pkg/install.log --single-version-externally-managed

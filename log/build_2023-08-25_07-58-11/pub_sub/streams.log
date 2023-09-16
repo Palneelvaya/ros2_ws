@@ -1,0 +1,32 @@
+[1.724s] Invoking command in '/home/palneel/ros2_ws/build/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build
+[2.244s] running develop
+[2.244s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.244s]   warnings.warn(
+[2.247s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.247s]   warnings.warn(
+[2.556s] Invoked command in '/home/palneel/ros2_ws/build/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build
+[2.558s] Invoking command in '/home/palneel/ros2_ws/src/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed
+[2.829s] running egg_info
+[2.831s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[2.831s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[2.831s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[2.831s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[2.831s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[2.834s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[2.835s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[2.835s] running build
+[2.835s] running build_py
+[2.835s] running install
+[2.836s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.836s]   warnings.warn(
+[2.836s] running install_lib
+[2.837s] running install_data
+[2.838s] running install_egg_info
+[2.840s] removing '/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.840s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[2.841s] running install_scripts
+[2.866s] Installing publisher script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[2.866s] Installing sample script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[2.866s] Installing subscriber script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[2.866s] writing list of installed files to '/home/palneel/ros2_ws/build/pub_sub/install.log'
+[2.901s] Invoked command in '/home/palneel/ros2_ws/src/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed

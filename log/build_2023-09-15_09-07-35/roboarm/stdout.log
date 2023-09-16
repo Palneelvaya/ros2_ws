@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing roboarm.egg-info/PKG-INFO
+writing dependency_links to roboarm.egg-info/dependency_links.txt
+writing entry points to roboarm.egg-info/entry_points.txt
+writing requirements to roboarm.egg-info/requires.txt
+writing top-level names to roboarm.egg-info/top_level.txt
+reading manifest file 'roboarm.egg-info/SOURCES.txt'
+writing manifest file 'roboarm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm.egg-link (link to .)
+Installing controller script to /home/palneel/ros2_ws/install/roboarm/lib/roboarm
+
+Installed /home/palneel/ros2_ws/build/roboarm
+running install_data
+copying launch/arm_control.launch.py -> /home/palneel/ros2_ws/install/roboarm/share/roboarm

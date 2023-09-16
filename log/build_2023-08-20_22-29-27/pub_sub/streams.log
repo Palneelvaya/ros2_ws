@@ -1,0 +1,35 @@
+[0.552s] Invoking command in '/home/palneel/ros2_ws/build/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build
+[0.716s] running develop
+[0.716s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.717s]   warnings.warn(
+[0.717s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.717s]   warnings.warn(
+[0.839s] Invoked command in '/home/palneel/ros2_ws/build/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build
+[0.840s] Invoking command in '/home/palneel/ros2_ws/src/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed
+[0.991s] running egg_info
+[0.992s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] copying pub_sub/subscriber.py -> /home/palneel/ros2_ws/build/pub_sub/build/lib/pub_sub
+[0.994s] running install
+[0.995s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.995s]   warnings.warn(
+[0.995s] running install_lib
+[0.995s] copying /home/palneel/ros2_ws/build/pub_sub/build/lib/pub_sub/subscriber.py -> /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.996s] byte-compiling /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/subscriber.py to subscriber.cpython-310.pyc
+[0.996s] running install_data
+[0.996s] running install_egg_info
+[0.998s] removing '/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.998s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[0.998s] running install_scripts
+[1.013s] Installing publisher script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[1.013s] Installing sample script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[1.013s] Installing subscriber script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[1.013s] writing list of installed files to '/home/palneel/ros2_ws/build/pub_sub/install.log'
+[1.042s] Invoked command in '/home/palneel/ros2_ws/src/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/palneel/ros2_ws/build/pub_sub/build install --record /home/palneel/ros2_ws/build/pub_sub/install.log --single-version-externally-managed

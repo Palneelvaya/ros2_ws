@@ -1,0 +1,27 @@
+[0.379s] Invoking command in '/home/palneel/ros2_ws/build/my_package': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/palneel/ros2_ws/build/my_package/build --no-deps install_data
+[0.537s] running develop
+[0.537s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.537s]   warnings.warn(
+[0.537s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.538s]   warnings.warn(
+[0.630s] running egg_info
+[0.630s] writing my_package.egg-info/PKG-INFO
+[0.631s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.631s] writing entry points to my_package.egg-info/entry_points.txt
+[0.631s] writing requirements to my_package.egg-info/requires.txt
+[0.631s] writing top-level names to my_package.egg-info/top_level.txt
+[0.633s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.633s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.634s] running build_ext
+[0.634s] Creating /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[0.635s] Installing add_two_ints_client script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] Installing add_two_ints_server script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] Installing robot_publisher script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] Installing robot_subscriber script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] Installing sample script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] Installing turtlesim_controller script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.635s] error: can't copy 'pub_sub/my_package_pub_sub.launch.py': doesn't exist or not a regular file
+[0.636s] 
+[0.636s] Installed /home/palneel/ros2_ws/build/my_package
+[0.636s] running install_data
+[0.655s] Invoked command in '/home/palneel/ros2_ws/build/my_package' returned '1': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/palneel/ros2_ws/build/my_package/build --no-deps install_data

@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/roboarm/roboarm.egg-info/PKG-INFO
+writing dependency_links to ../../build/roboarm/roboarm.egg-info/dependency_links.txt
+writing entry points to ../../build/roboarm/roboarm.egg-info/entry_points.txt
+writing requirements to ../../build/roboarm/roboarm.egg-info/requires.txt
+writing top-level names to ../../build/roboarm/roboarm.egg-info/top_level.txt
+reading manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying roboarm/controller.py -> /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+copying /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm/controller.py -> /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+byte-compiling /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm/controller.py to controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/roboarm/roboarm.egg-info to /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/palneel/ros2_ws/install/roboarm/lib/roboarm
+writing list of installed files to '/home/palneel/ros2_ws/build/roboarm/install.log'

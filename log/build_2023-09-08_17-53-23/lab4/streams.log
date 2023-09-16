@@ -1,0 +1,24 @@
+[0.535s] Invoking command in '/home/palneel/ros2_ws/src/lab4': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed
+[0.738s] running egg_info
+[0.738s] writing ../../build/lab4/lab4.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../../build/lab4/lab4.egg-info/dependency_links.txt
+[0.738s] writing entry points to ../../build/lab4/lab4.egg-info/entry_points.txt
+[0.738s] writing requirements to ../../build/lab4/lab4.egg-info/requires.txt
+[0.739s] writing top-level names to ../../build/lab4/lab4.egg-info/top_level.txt
+[0.740s] reading manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[0.741s] writing manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[0.741s] running build
+[0.741s] running build_py
+[0.741s] running install
+[0.741s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.741s]   warnings.warn(
+[0.741s] running install_lib
+[0.742s] running install_data
+[0.743s] running install_egg_info
+[0.744s] removing '/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info' (and everything under it)
+[0.744s] Copying ../../build/lab4/lab4.egg-info to /home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[0.745s] running install_scripts
+[0.764s] Installing controller script to /home/palneel/ros2_ws/install/lab4/lib/lab4
+[0.764s] Installing wall_follower script to /home/palneel/ros2_ws/install/lab4/lib/lab4
+[0.764s] writing list of installed files to '/home/palneel/ros2_ws/build/lab4/install.log'
+[0.790s] Invoked command in '/home/palneel/ros2_ws/src/lab4' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed

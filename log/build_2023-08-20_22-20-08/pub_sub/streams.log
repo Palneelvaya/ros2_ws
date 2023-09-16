@@ -1,0 +1,22 @@
+[0.377s] Invoking command in '/home/palneel/ros2_ws/build/pub_sub': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build --no-deps install_data
+[0.536s] running develop
+[0.536s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.536s]   warnings.warn(
+[0.537s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.537s]   warnings.warn(
+[0.630s] running egg_info
+[0.630s] writing pub_sub.egg-info/PKG-INFO
+[0.630s] writing dependency_links to pub_sub.egg-info/dependency_links.txt
+[0.630s] writing entry points to pub_sub.egg-info/entry_points.txt
+[0.630s] writing requirements to pub_sub.egg-info/requires.txt
+[0.630s] writing top-level names to pub_sub.egg-info/top_level.txt
+[0.631s] reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+[0.632s] writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+[0.633s] running build_ext
+[0.633s] Creating /home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+[0.633s] Installing publisher script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[0.633s] Installing sample script to /home/palneel/ros2_ws/install/pub_sub/lib/pub_sub
+[0.633s] 
+[0.633s] Installed /home/palneel/ros2_ws/build/pub_sub
+[0.634s] running install_data
+[0.655s] Invoked command in '/home/palneel/ros2_ws/build/pub_sub' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/pub_sub/prefix_override:/home/palneel/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/palneel/ros2_ws/build/pub_sub/build --no-deps install_data

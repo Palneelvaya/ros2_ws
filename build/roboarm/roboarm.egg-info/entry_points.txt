@@ -1,0 +1,3 @@
+[console_scripts]
+controller = roboarm.controller:main
+

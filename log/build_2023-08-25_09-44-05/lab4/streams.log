@@ -1,0 +1,22 @@
+[1.642s] Invoking command in '/home/palneel/ros2_ws/src/lab4': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed
+[1.975s] running egg_info
+[1.976s] writing ../../build/lab4/lab4.egg-info/PKG-INFO
+[1.976s] writing dependency_links to ../../build/lab4/lab4.egg-info/dependency_links.txt
+[1.976s] writing entry points to ../../build/lab4/lab4.egg-info/entry_points.txt
+[1.976s] writing requirements to ../../build/lab4/lab4.egg-info/requires.txt
+[1.977s] writing top-level names to ../../build/lab4/lab4.egg-info/top_level.txt
+[1.979s] reading manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[1.981s] writing manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[1.981s] running build
+[1.981s] running build_py
+[1.981s] running install
+[1.981s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.982s]   warnings.warn(
+[1.982s] running install_lib
+[1.984s] running install_data
+[1.984s] running install_egg_info
+[1.987s] removing '/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info' (and everything under it)
+[1.987s] Copying ../../build/lab4/lab4.egg-info to /home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[1.988s] running install_scripts
+[2.017s] writing list of installed files to '/home/palneel/ros2_ws/build/lab4/install.log'
+[2.052s] Invoked command in '/home/palneel/ros2_ws/src/lab4' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/lab4/prefix_override:/home/palneel/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /home/palneel/ros2_ws/build/lab4/build install --record /home/palneel/ros2_ws/build/lab4/install.log --single-version-externally-managed

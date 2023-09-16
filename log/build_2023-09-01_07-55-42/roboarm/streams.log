@@ -1,0 +1,35 @@
+[0.476s] Invoking command in '/home/palneel/ros2_ws/src/roboarm': PYTHONPATH=/home/palneel/ros2_ws/build/roboarm/prefix_override:/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/roboarm build --build-base /home/palneel/ros2_ws/build/roboarm/build install --record /home/palneel/ros2_ws/build/roboarm/install.log --single-version-externally-managed
+[0.626s] running egg_info
+[0.626s] creating ../../build/roboarm/roboarm.egg-info
+[0.627s] writing ../../build/roboarm/roboarm.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../../build/roboarm/roboarm.egg-info/dependency_links.txt
+[0.627s] writing entry points to ../../build/roboarm/roboarm.egg-info/entry_points.txt
+[0.627s] writing requirements to ../../build/roboarm/roboarm.egg-info/requires.txt
+[0.627s] writing top-level names to ../../build/roboarm/roboarm.egg-info/top_level.txt
+[0.627s] writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+[0.628s] reading manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+[0.629s] writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+[0.629s] running build
+[0.629s] running build_py
+[0.629s] creating /home/palneel/ros2_ws/build/roboarm/build
+[0.629s] creating /home/palneel/ros2_ws/build/roboarm/build/lib
+[0.629s] creating /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+[0.630s] copying roboarm/__init__.py -> /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+[0.630s] running install
+[0.631s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.631s]   warnings.warn(
+[0.631s] running install_lib
+[0.632s] creating /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+[0.632s] copying /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm/__init__.py -> /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+[0.633s] byte-compiling /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm/__init__.py to __init__.cpython-310.pyc
+[0.633s] running install_data
+[0.633s] creating /home/palneel/ros2_ws/install/roboarm/share/ament_index
+[0.633s] creating /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index
+[0.633s] creating /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index/packages
+[0.633s] copying resource/roboarm -> /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index/packages
+[0.633s] copying package.xml -> /home/palneel/ros2_ws/install/roboarm/share/roboarm
+[0.633s] running install_egg_info
+[0.634s] Copying ../../build/roboarm/roboarm.egg-info to /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info
+[0.635s] running install_scripts
+[0.649s] writing list of installed files to '/home/palneel/ros2_ws/build/roboarm/install.log'
+[0.666s] Invoked command in '/home/palneel/ros2_ws/src/roboarm' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/roboarm/prefix_override:/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/roboarm build --build-base /home/palneel/ros2_ws/build/roboarm/build install --record /home/palneel/ros2_ws/build/roboarm/install.log --single-version-externally-managed

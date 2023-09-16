@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/roboarm/roboarm.egg-info
+writing ../../build/roboarm/roboarm.egg-info/PKG-INFO
+writing dependency_links to ../../build/roboarm/roboarm.egg-info/dependency_links.txt
+writing entry points to ../../build/roboarm/roboarm.egg-info/entry_points.txt
+writing requirements to ../../build/roboarm/roboarm.egg-info/requires.txt
+writing top-level names to ../../build/roboarm/roboarm.egg-info/top_level.txt
+writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+reading manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/palneel/ros2_ws/build/roboarm/build
+creating /home/palneel/ros2_ws/build/roboarm/build/lib
+creating /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+copying roboarm/__init__.py -> /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+copying /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm/__init__.py -> /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+byte-compiling /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/palneel/ros2_ws/install/roboarm/share/ament_index
+creating /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index
+creating /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index/packages
+copying resource/roboarm -> /home/palneel/ros2_ws/install/roboarm/share/ament_index/resource_index/packages
+copying package.xml -> /home/palneel/ros2_ws/install/roboarm/share/roboarm
+running install_egg_info
+Copying ../../build/roboarm/roboarm.egg-info to /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/palneel/ros2_ws/build/roboarm/install.log'

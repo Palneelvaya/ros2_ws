@@ -1,0 +1,46 @@
+[0.379s] Invoking command in '/home/palneel/ros2_ws/build/my_package': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/my_package/build
+[0.538s] running develop
+[0.538s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.538s]   warnings.warn(
+[0.539s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.539s]   warnings.warn(
+[0.634s] Removing /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[0.654s] Invoked command in '/home/palneel/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/palneel/ros2_ws/build/my_package/build
+[0.655s] Invoking command in '/home/palneel/ros2_ws/src/my_package': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/palneel/ros2_ws/build/my_package/build install --record /home/palneel/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[0.801s] running egg_info
+[0.801s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.802s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.802s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.802s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.803s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.803s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.803s] running build
+[0.804s] running build_py
+[0.804s] copying my_package/turtle_controller.py -> /home/palneel/ros2_ws/build/my_package/build/lib/my_package
+[0.804s] copying my_package/robot_publisher.py -> /home/palneel/ros2_ws/build/my_package/build/lib/my_package
+[0.804s] copying my_package/sample.py -> /home/palneel/ros2_ws/build/my_package/build/lib/my_package
+[0.804s] running install
+[0.804s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.804s]   warnings.warn(
+[0.804s] running install_lib
+[0.805s] creating /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] copying /home/palneel/ros2_ws/build/my_package/build/lib/my_package/turtle_controller.py -> /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] copying /home/palneel/ros2_ws/build/my_package/build/lib/my_package/robot_subscriber.py -> /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] copying /home/palneel/ros2_ws/build/my_package/build/lib/my_package/robot_publisher.py -> /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] copying /home/palneel/ros2_ws/build/my_package/build/lib/my_package/sample.py -> /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] copying /home/palneel/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.805s] byte-compiling /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.806s] byte-compiling /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/robot_subscriber.py to robot_subscriber.cpython-310.pyc
+[0.806s] byte-compiling /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/robot_publisher.py to robot_publisher.cpython-310.pyc
+[0.807s] byte-compiling /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/sample.py to sample.cpython-310.pyc
+[0.807s] byte-compiling /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.807s] running install_data
+[0.807s] running install_egg_info
+[0.808s] Copying ../../build/my_package/my_package.egg-info to /home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.809s] running install_scripts
+[0.823s] Installing pub_sub_publisher script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.823s] Installing robot_subscriber script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.823s] Installing sample script to /home/palneel/ros2_ws/install/my_package/lib/my_package
+[0.823s] writing list of installed files to '/home/palneel/ros2_ws/build/my_package/install.log'
+[0.842s] Invoked command in '/home/palneel/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/my_package/prefix_override:/home/palneel/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/palneel/ros2_ws/build/my_package/build install --record /home/palneel/ros2_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+[1.786s] Invoking command in '/home/palneel/ros2_ws/src/node_pkg': PYTHONPATH=/home/palneel/ros2_ws/build/node_pkg/prefix_override:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/node_pkg build --build-base /home/palneel/ros2_ws/build/node_pkg/build install --record /home/palneel/ros2_ws/build/node_pkg/install.log --single-version-externally-managed
+[2.181s] running egg_info
+[2.183s] writing ../../build/node_pkg/node_pkg.egg-info/PKG-INFO
+[2.183s] writing dependency_links to ../../build/node_pkg/node_pkg.egg-info/dependency_links.txt
+[2.184s] writing entry points to ../../build/node_pkg/node_pkg.egg-info/entry_points.txt
+[2.184s] writing requirements to ../../build/node_pkg/node_pkg.egg-info/requires.txt
+[2.184s] writing top-level names to ../../build/node_pkg/node_pkg.egg-info/top_level.txt
+[2.187s] reading manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'
+[2.189s] writing manifest file '../../build/node_pkg/node_pkg.egg-info/SOURCES.txt'
+[2.189s] running build
+[2.189s] running build_py
+[2.189s] running install
+[2.189s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.189s]   warnings.warn(
+[2.190s] running install_lib
+[2.192s] running install_data
+[2.193s] running install_egg_info
+[2.196s] removing '/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.197s] Copying ../../build/node_pkg/node_pkg.egg-info to /home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages/node_pkg-0.0.0-py3.10.egg-info
+[2.198s] running install_scripts
+[2.242s] Installing Node1 script to /home/palneel/ros2_ws/install/node_pkg/lib/node_pkg
+[2.243s] writing list of installed files to '/home/palneel/ros2_ws/build/node_pkg/install.log'
+[2.275s] Invoked command in '/home/palneel/ros2_ws/src/node_pkg' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/node_pkg/prefix_override:/home/palneel/ros2_ws/install/node_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/node_pkg build --build-base /home/palneel/ros2_ws/build/node_pkg/build install --record /home/palneel/ros2_ws/build/node_pkg/install.log --single-version-externally-managed

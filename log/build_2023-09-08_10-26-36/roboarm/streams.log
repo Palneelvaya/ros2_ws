@@ -1,0 +1,27 @@
+[0.407s] Invoking command in '/home/palneel/ros2_ws/src/roboarm': PYTHONPATH=/home/palneel/ros2_ws/build/roboarm/prefix_override:/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/roboarm build --build-base /home/palneel/ros2_ws/build/roboarm/build install --record /home/palneel/ros2_ws/build/roboarm/install.log --single-version-externally-managed
+[0.560s] running egg_info
+[0.560s] writing ../../build/roboarm/roboarm.egg-info/PKG-INFO
+[0.560s] writing dependency_links to ../../build/roboarm/roboarm.egg-info/dependency_links.txt
+[0.560s] writing entry points to ../../build/roboarm/roboarm.egg-info/entry_points.txt
+[0.560s] writing requirements to ../../build/roboarm/roboarm.egg-info/requires.txt
+[0.560s] writing top-level names to ../../build/roboarm/roboarm.egg-info/top_level.txt
+[0.561s] reading manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+[0.562s] writing manifest file '../../build/roboarm/roboarm.egg-info/SOURCES.txt'
+[0.562s] running build
+[0.562s] running build_py
+[0.562s] copying roboarm/controller.py -> /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm
+[0.562s] running install
+[0.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.562s]   warnings.warn(
+[0.562s] running install_lib
+[0.563s] copying /home/palneel/ros2_ws/build/roboarm/build/lib/roboarm/controller.py -> /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm
+[0.563s] byte-compiling /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm/controller.py to controller.cpython-310.pyc
+[0.564s] running install_data
+[0.564s] copying urdf/manipulator.urdf -> /home/palneel/ros2_ws/install/roboarm/share/roboarm
+[0.564s] running install_egg_info
+[0.566s] removing '/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.566s] Copying ../../build/roboarm/roboarm.egg-info to /home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages/roboarm-0.0.0-py3.10.egg-info
+[0.566s] running install_scripts
+[0.580s] Installing controller script to /home/palneel/ros2_ws/install/roboarm/lib/roboarm
+[0.580s] writing list of installed files to '/home/palneel/ros2_ws/build/roboarm/install.log'
+[0.597s] Invoked command in '/home/palneel/ros2_ws/src/roboarm' returned '0': PYTHONPATH=/home/palneel/ros2_ws/build/roboarm/prefix_override:/home/palneel/ros2_ws/install/roboarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/roboarm build --build-base /home/palneel/ros2_ws/build/roboarm/build install --record /home/palneel/ros2_ws/build/roboarm/install.log --single-version-externally-managed
